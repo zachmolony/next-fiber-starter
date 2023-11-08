@@ -1,6 +1,7 @@
 const title = 'Big Smoke Corporation'
 const url = 'https://react-three-next.vercel.app/'
-const description = 'Exclusive management for Skepta.'
+const description =
+  'A multi-faceted creative collective specialising in music, film, and fashion founded by Joseph Adenuga aka Skepta.'
 const author = '@goatloaf'
 // const twitter = '@pmndrs'
 
