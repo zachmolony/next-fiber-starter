@@ -23,6 +23,21 @@ const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.
 })
 const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mod.Common), { ssr: false })
 
+// function FullSizeCanvas() {
+//   return (
+//     <>
+//       <div className='h-screen w-screen'>
+//         <View orbit className='h-full w-full'>
+//           <Suspense fallback={null}>
+//             <Duck route='/blob' scale={2} position={[0, -1.6, 0]} />
+//             <Common color={'#070014'} />
+//           </Suspense>
+//         </View>
+//       </div>
+//     </>
+//   )
+// }
+
 export default function Page() {
   return (
     <>
